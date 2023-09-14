@@ -39,8 +39,8 @@ public class ProductService {
         //productRepository.deleteProductEntityById(id);
     }
 
-    public List<ProductEntity> getByCategoryId(Long categorid) {
-        var result = productRepository.findProductEntityByCategoryId(categorid);
+    public List<ProductEntity> getByCategoryId(Long categoried) {
+        var result = productRepository.findProductEntityByCategoryId(categoried);
         return result;
     }
 }
